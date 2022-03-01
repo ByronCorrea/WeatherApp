@@ -4,6 +4,7 @@ import Cards from "../components/Cards";
 import Nav from "../components/Nav.jsx";
 import Ciudad from "../components/Ciudad";
 import About from "../components/About.jsx";
+import "./App.css";
 
 const API_KEY = process.env.REACT_APP_API_KEY;
 
