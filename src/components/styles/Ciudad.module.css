@@ -1,0 +1,44 @@
+.ciudad {
+  position: relative;
+  display: flex;
+  background-color: transparent;
+
+  justify-content: center;
+
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.name {
+  grid-column: 1 / span 3;
+  font-weight: 700;
+  font-size: 3rem;
+  backdrop-filter: blur(300px);
+  color: rgb(240, 228, 212);
+}
+
+.tarjeta {
+  font-size: 2rem;
+  font-weight: 600;
+  font-family: "Noto Sans", sans-serif;
+
+  padding-right: 5rem;
+  padding-left: 5rem;
+  padding-top: 5rem;
+  padding-bottom: 2rem;
+  color: rgb(228, 228, 228);
+  border-radius: 5rem;
+
+  backdrop-filter: blur(30px);
+  box-shadow: 0 8px 32px rgba(43, 42, 42, 0.418);
+  transition: all 0.1s ease;
+}
+
+.tarjeta > div {
+  text-align: initial;
+}
+
+.tarjeta:hover {
+  transform: translateY(3px);
+  box-shadow: 0px 3px 5px rgba(163, 170, 172, 0.568);
+}
