@@ -1,0 +1,52 @@
+.nav {
+  width: 100%;
+  display: flex;
+  position: relative;
+  gap: 1rem;
+  justify-content: space-between;
+  background-color: transparent;
+  top: 2rem;
+}
+
+.brand,
+.about {
+  gap: 0.5rem;
+  font-size: 1.5rem;
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  margin-left: 10rem;
+  margin-right: 10rem;
+}
+
+@media screen and (max-width: 1000px) {
+  .brand,
+  .about {
+    margin-left: 6rem;
+    margin-right: 6rem;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .brand,
+  .about {
+    margin-left: 3rem;
+    margin-right: 3rem;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .brand,
+  .about {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .brand,
+  .about {
+    margin-left: 0.1rem;
+    margin-right: 0.1rem;
+  }
+}
