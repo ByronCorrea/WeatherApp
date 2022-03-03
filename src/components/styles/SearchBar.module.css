@@ -62,3 +62,9 @@
     width: 100%;
   }
 }
+
+@media screen and (max-height: 750px) {
+  .searchBar {
+    top: 35rem;
+  }
+}
