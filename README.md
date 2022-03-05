@@ -1,6 +1,6 @@
 # ⛈ Weather App
 
-### Weather App created with OpenWeatherMap API
+### ⛈Weather App created with OpenWeatherMap API⛈
 
 - Responsive Weather App Using REACT CSS & JavaScript
 - Developed for desktop, then with the Mobile First methodology.
